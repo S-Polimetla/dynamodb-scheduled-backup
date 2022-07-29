@@ -8,7 +8,9 @@ In my example, the following has been configured
 - A backup is considered old if it was created 7 days ago at the time, the lambda function to delete runs. 
 
 The deployment is done using GitHub Actions using OpenID Connect (OIDC) approach. The role creation file is [here](https://gist.github.com/S-Polimetla/11a38913ab914d1e6b023365b8b22159)
+
 Deployment only happens when a push to the main branch happens
+
 There are 2 workflows. [Deploy](./.github/workflows/deploy.yml) happens only when something is pushed to main branch. 
 - Pushes to other branches and PRs are being addressed by [Build](./.github/workflows/build.yml)
 
