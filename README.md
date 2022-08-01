@@ -13,5 +13,3 @@ Deployment only happens when a push to the main branch happens
 
 There are 2 workflows. [Deploy](./.github/workflows/deploy.yml) happens only when something is pushed to main branch. 
 - Pushes to other branches and PRs are being addressed by [Build](./.github/workflows/build.yml)
-
-A detailed description about the implementation is covered in my post [here](link-here)
