@@ -35,4 +35,4 @@ jobs:
           aws-region: eu-west-1
           role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/GitHubActionsRole
       - name: Deploy to Lambda
-        run: npm run deploy -- --param="S3_BUCKET=${{ secrets.S3_BUCKET }}"
+        run: npm run deploy -- --param="S3_BUCKET=${{ secrets.S3_BUCKET }}" 
