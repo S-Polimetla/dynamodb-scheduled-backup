@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      # Install the dependencies
+      - npm ci  
+  build:
+    commands:
+      - npm test # Run unit tests
+      - npm run lint # Run linter
+      - npm run build # Build the application
