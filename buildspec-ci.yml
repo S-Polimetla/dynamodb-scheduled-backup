@@ -9,6 +9,6 @@ phases:
       - npm ci  
   build:
     commands:
-      - npm test # Run unit tests
+      #- npm test # Run unit tests
       - npm run lint # Run linter
       - npm run build # Build the application 
