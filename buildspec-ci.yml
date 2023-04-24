@@ -11,4 +11,4 @@ phases:
     commands:
       - npm test # Run unit tests
       - npm run lint # Run linter
-      - npm run build # Build the application
+      - npm run build # Build the application 
